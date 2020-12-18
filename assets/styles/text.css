@@ -1,0 +1,47 @@
+            .postr{
+                position:fixed;
+                top:44%;
+                right:15vw;
+                width:70vw;
+            }
+            .text{
+                color:white;
+                text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+                font-family: 'TitilliumWeb-Regular', sans-serif;
+                font-weight:400;
+                text-decoration:none;
+            }
+            .loading{
+                position:fixed;
+                top:0;
+                left:0;
+                width:100vw;
+                height:1em;
+                font-size:3vh;
+                line-height: 97.5%;
+                content: "";
+                animation-name:loadera;
+                animation-iteration-count: 4;
+                animation-duration:5s;
+                animation-delay: 3s;
+                opacity:0;
+            }
+            .loading:after{
+                content: "";
+                animation-name:loader;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                animation-duration:20s;
+                animation-delay: 3s;
+            }
+            
+            .about{
+                font-size:3vh;
+                line-height: 97.5%;
+            }
+            .hello{
+                font-family: 'TitilliumWeb-Bold', sans-serif;
+                font-weight:700;
+                font-size: 4vh;
+                line-height: 20%;
+            }

@@ -1,0 +1,21 @@
+            img{height:10vh;}
+            img:hover{animation-name:hover;animation-duration:.5s;transform: scale(1.3);}
+            img:not(:hover){animation-name:nhover;animation-duration:.5s;}
+            
+            .youtube{content: url("/assets/logos/yt.png");}
+            .github{content: url("/assets/logos/github.png");}
+            .facebook{content: url("/assets/logos/facebook.png");}
+            .telegram{content: url("/assets/logos/telegram.png");}
+            .seeed{content: url("/assets/logos/seeed.png");}
+            .instagram{content: url("/assets/logos/instagram.png");}
+            .vkontakte{content: url("/assets/logos/vk.png");}
+            .pda{content: url("/assets/logos/4pda.png");}
+            
+            .youtube:hover{content: url("/assets/logos/ytc.png");}
+            .github:hover{content: url("/assets/logos/githubc.png");}
+            .facebook:hover{content: url("/assets/logos/facebookc.png");}
+            .telegram:hover{content: url("/assets/logos/telegramc.png");}
+            .seeed:hover{content: url("/assets/logos/seeedc.png");}
+            .instagram:hover{content: url("/assets/logos/instagramc.png");}
+            .vkontakte:hover{content: url("/assets/logos/vkc.png");}
+            .pda:hover{content: url("/assets/logos/4pdac.png");}
